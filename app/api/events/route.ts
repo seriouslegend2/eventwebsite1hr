@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import { getEvents, addEvent, deleteEvent } from '../../../lib/eventUtils'
-import { Event } from '../../../types/event'
+import { getEvents, addEvent, deleteEvent } from "@/lib/eventUtils"
+import { Event } from '@/components/types/event'
 
 export async function GET() {
   const events = await getEvents()

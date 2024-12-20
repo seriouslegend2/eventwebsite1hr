@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { Event } from '../types/event'
+import { Event } from '@/components/types/event'
 import { Calendar } from "@/components/ui/calendar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"

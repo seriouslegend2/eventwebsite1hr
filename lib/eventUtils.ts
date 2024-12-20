@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import path from 'path'
-import { Event } from '../types/event'
+import { Event } from '@/components/types/event'
 
 const eventsFile = path.join(process.cwd(), 'data', 'events.json')
 

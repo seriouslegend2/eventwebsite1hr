@@ -1,16 +1,16 @@
 "use client"
 
 import { useState, useEffect } from 'react'
-import { EventForm } from '../components/EventForm'
-import { EventCalendar } from '../components/EventCalendar'
-import { EventPrint } from '../components/EventPrint'
-import { MonthlyEventList } from '../components/MonthlyEventList'
+import { EventForm } from "@/components/EventForm"
+import { EventCalendar } from '@/components/EventCalendar'
+import { EventPrint } from '@/components/EventPrint'
+import { MonthlyEventList } from '@/components/MonthlyEventList'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
 import { Calendar, ListTodo, PlusCircle, Printer, LogOut, Lock } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { Event } from '../types/event'
+import { Event } from '@/components/types/event'
 
 export default function Home() {
   const [selectedMonth, setSelectedMonth] = useState<string>(
